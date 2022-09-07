@@ -4,4 +4,4 @@ Curso GIT/GitHub
 2. git clone URL (clona o repositório do servidor para a máquina local)
 3. git add . (adiciona o repositório na máquina no Stage)
 4. git commit -m "message" (prepara os arquivos trabalhados para serem enviados)
-5. git push 
+5. git push origin main (envia a pasta MAIN para o GitHub)
