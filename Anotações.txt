@@ -1,0 +1,7 @@
+Curso GIT/GitHub
+
+1. git init (inicializa o GIT no repositório)
+2. git clone URL (clona o repositório do servidor para a máquina local)
+3. git add . (adiciona o repositório na máquina no Stage)
+4. git commit -m "message" (prepara os arquivos trabalhados para serem enviados)
+5. git push 
