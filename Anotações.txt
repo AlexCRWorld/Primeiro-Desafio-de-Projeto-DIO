@@ -1,4 +1,7 @@
-Curso GIT/GitHub
+GIT/GitHub
+
+
+--> Enviando um projeto para o GitHub pela primeira vez:
 
 0. GIT Bash Here na pasta onde estão os arquivos
 1. git init (inicializa o GIT no repositório)
@@ -7,3 +10,16 @@ Curso GIT/GitHub
 4. git commit -m "message" (prepara os arquivos trabalhados para serem enviados)
 5. git remote add origin URL (Faz o link da pasta local com o repositório do GitHub)
 6. git push -u origin master (envia a pasta MASTER para o GitHub)
+
+___________________________________________________________
+-- > Enviando alterações para o projeto que já está no GitHub:
+* Esta opção parte do ponto que as alterações foram feitas localmente e desejamos enviar a nova versão dos arquivos para o GitHub
+
+0. GIT Bash Here na pasta onde estão os arquivos
+1. git init (inicializa o GIT no repositório)
+2. git status (mostra os arquivos da máquina local que ainda não foram para o GitHub)
+3. git clone URL (clona o repositório do GitHub para a máquina)
+4. git status (mais uma vez para saber como estão os arquivos)
+5. git add -A (adiciona todos os arquivos da máquina local para o Stage)
+6. git commit -m "message" (prepara os arquivos trabalhados para serem enviados)
+7. git push (envia novamente os arquivos para o GitHub)
